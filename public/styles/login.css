@@ -1,0 +1,34 @@
+.container-web-qs {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.form-action-login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forgot-password-a {
+    color: red;
+    text-decoration: none;
+    font-size: 14px
+}
+
+.btn-toggle-password-div {
+    position: absolute;
+    right: 5px;
+    z-index: 999;
+}
+
+.btn-toggle-password {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    height: 36px;
+}
